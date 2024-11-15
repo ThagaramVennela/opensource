@@ -1,0 +1,6 @@
+x = int(input())
+max = 100
+discount = x*0.1
+if discount>max:
+    max=discount
+print(int(x-max))
