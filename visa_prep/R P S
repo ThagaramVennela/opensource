@@ -1,0 +1,22 @@
+V,C = input().split()
+if V=="P":
+    if C=="R":
+        print("Vignesh")
+    elif C=="S":
+        print("Charan")
+    else:
+        print("NULL")
+if V=="S":
+    if C=="R":
+        print("Charan")
+    elif C=="P":
+        print("Vignesh")
+    else:
+        print("NULL")
+if V=="R":
+    if C=="P":
+        print("Charan")
+    elif C=="S":
+        print("Vignesh")
+    else:
+        print("NULL")
